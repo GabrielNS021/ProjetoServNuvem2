@@ -9,7 +9,13 @@
 3. 10419046 - Gabriel Pastorelli de Almeida - responsabilidade
 
 ## 1. Visão geral
-<!-- Descreva rapidamente o domínio escolhido, por que foi selecionado e o que o CRUD faz. -->
+O domínio escolhido para este projeto é um Catálogo de Filmes, projetada para gerenciar uma coleção de informações sobre filmes, como título, diretor, ano de lançamento e gênero.
+
+O CRUD implementado nesta API permite realizar as seguintes ações sobre os dados dos filmes:
+*Create: Permite adicionar um novo registro de filme ao catálogo, fornecendo seus detalhes no corpo da requisição.
+*Read: Possibilita consultar a lista completa de filmes existentes no catálogo ou obter os detalhes de um filme específico através do seu identificador único (ID).
+*Update: Permite modificar as informações de um filme já existente no catálogo, identificado pelo seu ID.
+*Delete: Permite remover um registro de filme específico do catálogo, utilizando seu ID.
 
 ## 2. Arquitetura
 

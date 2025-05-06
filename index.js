@@ -82,7 +82,7 @@ app.delete('/filmes/:id', (req, res) => {
   filmes = filmes.filter(f => f.id !== idFilme);
 
   if (filmes.length < tamanhoOriginal) {
-    res.status(204).end(); // Sucesso sem conteúdo
+    res.status(204).end();
   } else {
     res.status(404).json({ message: 'Filme não encontrado.' });
   }
